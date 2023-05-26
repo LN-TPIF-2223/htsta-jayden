@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
-
 .container {
   max-width: 400px;
   margin: 0 auto;
@@ -14,7 +13,7 @@ body {
   text-align: left;
 }
 
-h2 {
+h1 {
   color: #555;
   text-align: center;
 }
@@ -24,7 +23,7 @@ label {
   margin-bottom: 8px;
 }
 
-input[type="text"],
+input[type="email"],
 input[type="password"] {
   width: 100%;
   padding: 10px;
