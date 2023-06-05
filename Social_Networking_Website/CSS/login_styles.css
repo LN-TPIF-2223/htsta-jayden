@@ -60,7 +60,7 @@ input[type="submit"]:hover {
   text-align: center;
   background-color: rgb(194, 191, 191);
   width: 425px;
-  border-radius: 7px;
+  border-radius: 0px 0px 7px 7px;
   padding: 8px;
   margin: 0 auto;
 }
