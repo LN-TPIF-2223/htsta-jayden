@@ -6,7 +6,7 @@ body {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgb(217, 217, 217);
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,20 +26,24 @@ label {
 input[type="email"],
 input[type="password"] {
   width: 100%;
-  padding: 10px;
+  padding: 18px;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 7px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 input[type="submit"] {
-  background-color: blue;
-  color: #fff;
+  background-color: rgb(0, 0, 255);
+  color: #ffffffc7;
   border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  box-sizing: border-box;
   cursor: pointer;
+  font-size: x-large;
+  margin-bottom: 10px;
 }
 
 input[type="submit"]:hover {
@@ -48,4 +52,15 @@ input[type="submit"]:hover {
 
 .Login{
   text-align: center;
+}
+
+.Create {
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  background-color: rgb(194, 191, 191);
+  width: 425px;
+  border-radius: 7px;
+  padding: 8px;
+  margin: 0 auto;
 }
