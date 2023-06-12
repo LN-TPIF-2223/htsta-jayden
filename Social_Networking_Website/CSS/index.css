@@ -37,3 +37,9 @@ header {
   background-color: lightgray;
   padding: 10px;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  color: black;
+}
