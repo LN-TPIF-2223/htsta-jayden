@@ -1,0 +1,31 @@
+body{
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: inherit;
+}
+
+.Icon {
+  height: 50px;
+  width: 50px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: darkblue;
+  color: white;
+}
+
+.ChatterBox {
+  display: inline-block;
+}
+
+.Search {
+
+}
+
+.navbar {
+
+}
