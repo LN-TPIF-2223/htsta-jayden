@@ -74,8 +74,8 @@ nav {
   top: 0;
   right: 0;
 }
-main {
-  width: 1200px;
+section {
+  width: 1300px;
   margin-left: auto;
   margin-right: auto;
   background: #fff;
@@ -83,4 +83,18 @@ main {
 .Profile-background img{
   width: 100%;
   height: 500px;
+}
+.nav-profile {
+  background-color: #fff;
+  padding: 0;
+}
+.nav-profile ul{
+  display: flex;
+  padding: 5px 20%;
+}
+.nav-profile li {
+  display: flex;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding: 0 25px 0 25px;
 }
