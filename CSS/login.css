@@ -46,12 +46,12 @@ input[type="submit"]{
   text-align: center;
 }
 
- {
+#login {
   text-decoration: none;
   color: #ffffffc7;
 }
 
-.Login:hover {
+#Login:hover {
   background-color: rgb(29, 29, 198);
 }
 
