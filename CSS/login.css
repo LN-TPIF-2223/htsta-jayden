@@ -33,7 +33,7 @@ input[type="password"] {
   margin-bottom: 14px;
 }
 
-.Login{
+input[type="submit"]{
   background-color: rgb(0, 0, 255);
   border: none;
   width: 100%;
@@ -46,7 +46,7 @@ input[type="password"] {
   text-align: center;
 }
 
-.Login a {
+ {
   text-decoration: none;
   color: #ffffffc7;
 }
